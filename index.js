@@ -19,3 +19,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.listen(port, () => {
     console.log("app is listening on port", port);
 });
+
+// app.get('/post', (req, res) => {
+//     console.log("request found /post");
+//     res.render("index.ejs", { posts }); 
+// });
+
